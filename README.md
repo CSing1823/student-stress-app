@@ -93,7 +93,7 @@ After training and evaluating five classification models, the **Support Vector M
 |----------------------|----------|----------------|----------|----------------|-----------|
 | Random Forest        | 0.94     | 0.92           | 0.85     | 0.93           | 0.98      |
 | Logistic Regression  | 0.82     | 0.82           | 0.79     | 0.85           | 0.82      |
-| K-Nearest Neighbors  | 0.97     | 0.96           | 0.94     | 0.95           | 0.98      |
+| K-Nearest Neighbors  | **0.97** | 0.96           | 0.94     | 0.95           | 0.98      |
 | XGBoost Classifier   | 0.95     | 0.93           | 0.87     | 0.93           | 0.98      |
 | **SVM (RBF Kernel)** | **0.97** | **0.97**       | **0.95** | **0.97**       | **0.99**  |
 
