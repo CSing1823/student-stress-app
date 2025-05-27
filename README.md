@@ -55,7 +55,7 @@ We trained and evaluated the following five classification models:
 - **Random Forest**
 - **Logistic Regression**
 - **K-Nearest Neighbors (KNN)**
-- **XGBoost**
+- **XGBoost Classifier**
 - **Support Vector Machine (SVM) with RBF kernel** – *Best performing model*
 
 Each model was evaluated using:
