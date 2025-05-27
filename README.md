@@ -26,8 +26,14 @@ The dataset contains the following key variables:
 Collected via Google Forms, this survey-based dataset offers insight into how academic behaviors and lifestyle factors influence student stress levels. Despite some potential for subjective bias, its clean structure and large sample size make it highly suitable for exploratory and predictive analysis.
 
 ### 2️⃣ **Scrub**
-- Cleaned missing or inconsistent values.
-- Binned numeric variables (e.g., `Study_Hours_Per_Day` and `Sleep_Hours_Per_Day`) into categories like `Low`, `Moderate`, `High`.
+The dataset was examined for quality issues and prepared for analysis through the following steps:
+
+- **Missing Values**: Checked all columns for null or inconsistent values. The dataset was clean—no missing or duplicate entries were found.
+- **Data Type Conversion**: Categorical variable `Stress_Level` was encoded as numerical values (`Low` → 0, `Moderate` → 1, `High` → 2) to support machine learning models.
+- **Binning**: Continuous variables such as `Study_Hours_Per_Day` and `Sleep_Hours_Per_Day` were binned into categorical levels like `Very Low`, `Low`, `Moderate`, `High`, and `Very High` for more interpretable visualizations and subgroup analysis.
+- **Outliers**: Visual and statistical checks showed all values were within acceptable, realistic ranges. No outliers were removed.
+
+These preprocessing steps ensured the data was structured, consistent, and ready for analysis and modeling.
 
 ### 3️⃣ **Explore**
 - Conducted exploratory data analysis (EDA).
