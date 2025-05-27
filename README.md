@@ -114,15 +114,16 @@ Access the Student Stress Level Predictor [here](https://student-stress-app-vngk
 
 ## 📁 Files Included
 
-| File                | Description                                |
-|---------------------|--------------------------------------------|
-| `svm_model.pkl`     | Final trained SVM model                    |
-| `scaler.pkl`        | StandardScaler used to normalize inputs    |
-| `le_study.pkl`      | Label encoder for study categories         |
-| `le_sleep.pkl`      | Label encoder for sleep categories         |
-| `requirements.txt`  | Python dependencies for Streamlit app      |
-| `streamlit_app.py`  | Main script to launch the web application |
-| `WIE2003_IDS_Assignment.ipynb` | Full data science analysis notebook |
+| File                              | Description                                        |
+|-----------------------------------|----------------------------------------------------|
+| `svm_model.pkl`                   | Final trained SVM model                            |
+| `scaler.pkl`                      | `StandardScaler` used to normalize inputs          |
+| `le_study.pkl`                    | Label encoder for study categories                 |
+| `le_sleep.pkl`                    | Label encoder for sleep categories                 |
+| `requirements.txt`               | Python dependencies for Streamlit app              |
+| `streamlit_app.py`               | Main script to launch the web application          |
+| `WIE2003_IDS_Group_Assignment_Latest.ipynb` | Full data science analysis notebook       |
+| `student_lifestyle_dataset.csv`  | The original dataset used for training and analysis |
 
 ---
 
