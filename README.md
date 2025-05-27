@@ -87,9 +87,23 @@ This tool allows users to input their daily study hours, sleep duration, and GPA
 
 ## 🧠 Best Model
 
-- **Support Vector Machine (SVM)** with **RBF Kernel** achieved the highest macro F1-score.
-- This model was exported using `joblib` and integrated into the web app.
+After training and evaluating five classification models, the **Support Vector Machine (SVM) with RBF Kernel** achieved the best overall performance across all key metrics.
 
+| Model                 | Accuracy | Macro F1-Score | F1 (Low) | F1 (Moderate) | F1 (High) |
+|----------------------|----------|----------------|----------|----------------|-----------|
+| Random Forest        | 0.94     | 0.92           | 0.85     | 0.93           | 0.98      |
+| Logistic Regression  | 0.82     | 0.82           | 0.79     | 0.85           | 0.82      |
+| K-Nearest Neighbors  | 0.97     | 0.96           | 0.94     | 0.95           | 0.98      |
+| XGBoost Classifier   | 0.95     | 0.93           | 0.87     | 0.93           | 0.98      |
+| **SVM (RBF Kernel)** | **0.97** | **0.97**       | **0.95** | **0.97**       | **0.99**  |
+
+💡 **Why SVM was selected**:
+- It achieved the **highest scores across all metrics**, including F1-scores for each class.
+- Especially strong at identifying underrepresented classes such as “Moderate” stress.
+
+🧪 **Deployment**:
+- The trained SVM model was exported using `joblib` and integrated into the deployed web app.
+- Users can enter their daily study hours, sleep hours, and GPA to predict their stress level.
 ---
 
 ## 🌐 Deployed Web App
