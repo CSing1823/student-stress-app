@@ -67,8 +67,21 @@ Each model was evaluated using:
 The SVM with RBF kernel showed the highest performance across most metrics, effectively handling nonlinear decision boundaries in our dataset.
 
 ### 5️⃣ **Interpret**
-- Identified key behavioral indicators of high stress (e.g., high study hours + low sleep).
-- Offered practical recommendations for stress management and lifestyle balance.
+The model outputs were analyzed to identify behavioral patterns that contribute to high stress levels among students:
+
+- **High Stress Indicators**: Students with **long study hours** (e.g., >6 hours/day) and **short sleep duration** (e.g., <5 hours/day) were more likely to be classified as experiencing high stress.
+- **Moderate Stress**: Typically observed in students with a mix of average study hours and reduced sleep.
+- **Low Stress**: Common among students who maintained a balanced routine with **moderate study time** and **sufficient sleep** (7–8 hours/day).
+
+Based on these findings, we provided **practical recommendations** for stress management:
+- Prioritize consistent sleep schedules.
+- Avoid overstudying at the expense of rest.
+- Adopt a balanced approach to academic workloads and self-care.
+
+These insights are made actionable through our deployed web application:  
+👉 **[Try the Stress Level Predictor Web App](https://your-streamlit-app-link.streamlit.app/)**
+
+This tool allows users to input their daily study hours, sleep duration, and GPA to receive an instant prediction of their stress level.
 
 ---
 
