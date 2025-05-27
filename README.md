@@ -14,7 +14,16 @@ This project aims to develop a predictive model that estimates a student's stres
 ## 🔍 Data Analysis Workflow (OSEMN Framework)
 
 ### 1️⃣ **Obtain**
-- Collected survey data on students' daily **Study Hours**, **Sleep Hours**, **GPA**, and **self-reported Stress Levels**.
+We obtained the dataset from Kaggle: [Student Lifestyle Dataset](https://www.kaggle.com/datasets/steve1215rogg/student-lifestyle-dataset), which includes anonymized responses from **2,000 university students**.
+
+The dataset contains the following key variables:
+
+- **Study_Hours_Per_Day**: Number of hours a student studies daily  
+- **Sleep_Hours_Per_Day**: Average daily sleep duration  
+- **GPA**: Reported academic performance on a 4.0 scale  
+- **Stress_Level**: Self-reported stress classified as *Low*, *Moderate*, or *High*
+
+Collected via Google Forms, this survey-based dataset offers insight into how academic behaviors and lifestyle factors influence student stress levels. Despite some potential for subjective bias, its clean structure and large sample size make it highly suitable for exploratory and predictive analysis.
 
 ### 2️⃣ **Scrub**
 - Cleaned missing or inconsistent values.
