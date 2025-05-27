@@ -129,4 +129,4 @@ Access the Student Stress Level Predictor [here](https://student-stress-app-vngk
 
 ## 📢 Credits
 
-Developed by See Chan Sing as part of **WIE2003 Introduction to Data Science** coursework at **University of Malaya**.
+Developed by **See Chan Sing** as part of **WIE2003 Introduction to Data Science** coursework at **University of Malaya**.
