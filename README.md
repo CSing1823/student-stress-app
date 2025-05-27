@@ -48,15 +48,23 @@ We conducted Exploratory Data Analysis (EDA) to uncover trends, correlations, an
 This phase helped shape hypotheses and informed the feature selection for the modeling stage.
 
 ### 4️⃣ **Model**
-- Applied **SMOTE** to balance the class distribution.
-- Trained 5 models:
-  - Random Forest  
-  - Logistic Regression  
-  - K-Nearest Neighbors (KNN)  
-  - XGBoost  
-  - **SVM with RBF kernel** (Best performing model)
+To address class imbalance in the `Stress_Level` variable, we applied **SMOTE** (Synthetic Minority Over-sampling Technique) to the training set. This helped ensure fair representation of all stress categories during model training.
 
-- Evaluated performance using **Accuracy**, **Precision**, **Recall**, and **F1-Score**.
+We trained and evaluated the following five classification models:
+
+- **Random Forest**
+- **Logistic Regression**
+- **K-Nearest Neighbors (KNN)**
+- **XGBoost**
+- **Support Vector Machine (SVM) with RBF kernel** – *Best performing model*
+
+Each model was evaluated using:
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1-Score (Macro-Averaged)**
+
+The SVM with RBF kernel showed the highest performance across most metrics, effectively handling nonlinear decision boundaries in our dataset.
 
 ### 5️⃣ **Interpret**
 - Identified key behavioral indicators of high stress (e.g., high study hours + low sleep).
