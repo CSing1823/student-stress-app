@@ -36,9 +36,16 @@ The dataset was examined for quality issues and prepared for analysis through th
 These preprocessing steps ensured the data was structured, consistent, and ready for analysis and modeling.
 
 ### 3️⃣ **Explore**
-- Conducted exploratory data analysis (EDA).
-- Visualized the **correlation between study/sleep habits and stress**.
-- Tested hypotheses on behavior patterns and stress outcomes.
+We conducted Exploratory Data Analysis (EDA) to uncover trends, correlations, and patterns in the dataset:
+
+- **Correlation Analysis**: Used heatmaps and scatter plots to explore relationships between `Study_Hours_Per_Day`, `Sleep_Hours_Per_Day`, `GPA`, and `Stress_Level`.
+- **Visualizations**: Applied histograms, KDE plots, pairplots, and bar charts to examine variable distributions and stress level variations across different lifestyle patterns.
+- **Key Insights**:
+  - Higher study hours are associated with increased stress.
+  - Lower sleep duration correlates with higher stress.
+  - High GPA students also report higher stress levels, suggesting pressure to maintain performance.
+
+This phase helped shape hypotheses and informed the feature selection for the modeling stage.
 
 ### 4️⃣ **Model**
 - Applied **SMOTE** to balance the class distribution.
